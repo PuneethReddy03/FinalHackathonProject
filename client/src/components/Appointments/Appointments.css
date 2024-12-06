@@ -1,0 +1,39 @@
+.appointments-container {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  max-width: 500px; /* Optional: set a max-width for the container */
+  margin-left: auto;
+  margin-right: auto; /* Center the container */
+}
+
+.appointments-container h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.appointments-container input,
+.appointments-container textarea {
+  width: 80%; /* Decreased width for input fields */
+  padding: 8px; /* Reduced padding */
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px; /* Optional: smaller font size */
+}
+
+.appointments-container button {
+  width: 80%; /* Decreased width for button */
+  padding: 8px; /* Reduced padding */
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px; /* Optional: smaller font size */
+}
+
+.appointments-container button:hover {
+  background-color: #45a049;
+}
